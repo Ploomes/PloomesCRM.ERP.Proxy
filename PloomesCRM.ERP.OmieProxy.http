@@ -1,0 +1,6 @@
+@PloomesCRM.ERP.Proxy_HostAddress = http://localhost:5266
+
+GET {{PloomesCRM.ERP.Proxy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
