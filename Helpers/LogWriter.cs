@@ -11,9 +11,6 @@ namespace PloomesCRM.ERP.Proxy.Helpers
 {
     public static class LogWriter
     {
-        //app settings LogWriter object
-        public static LogWriterConfig LogWriterConfig { get; set; }
-
         #region Constants
         //Validate Environment
         public readonly static bool isDevelopment = String.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("PLOOMESCRMCALLBACKHUB2_MASTER_DEFAULT_SERVICE_HOST"));
